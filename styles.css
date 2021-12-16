@@ -1,8 +1,19 @@
 div.container{
     display: flex;
-    border: 2px dotted blue;
+    border: 2px dotted red;
+    flex-flow: row wrap;
+    width: 960px;
+    height: 960px;
 }
 div.grid{
-border: 2px solid red;
-padding: 1px;
+    border: 1px solid black;
+    flex: 1 1 60px;
+    margin: -1px;
+}
+
+div.hover{
+    border: 1px solid black;
+    flex: 1 1 60px;
+    margin: -1px;
+    background-color: black;
 }
